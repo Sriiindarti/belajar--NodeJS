@@ -1,0 +1,31 @@
+ERROR #1 : PERTAMA KALI RUN SETELAH INSTALL NODEJS
+
+Install NodeJS di
+🔗 https://nodejs.org/
+
+⚠️Saat mau RUN malah Error⚠️
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\Indri\Desktop\COBA-NODE> node code.js
+node : The term 'node' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ node code.js
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (node:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Coba cek apakah instalasi sudah terpasang
+   buka gitbash >> (ketik) node-v >> muncul version node js (Jika instalasi awal berhasil)
+2. Cek Path NodeJS
+   (Ini cara Windows)
+   Folder >> This PC >> (Klik Kanan) >> Properties >> Advanced system Settings >> (Paling Bawah) Environment Variables >> (System Variabel) cari PATH >> edit >> cari apakah ada path nodejs Kamu?
+3. Restart IDE (Visual Studi Code)
+4. Try again😊
+
+5. Open Terminal di VS Code
+6. (Ketik) node coba.js
+
+7. Selimit Mentry hehehe🤗
